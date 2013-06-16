@@ -7,7 +7,7 @@
  * @link       http://www.z-index.net
  * @copyright  (c) 2013 Branko Wilhelm
  * @license    GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
- * @version    $Id $
+ * @version    $Id$
  */
 
 defined('_JEXEC') or die;
