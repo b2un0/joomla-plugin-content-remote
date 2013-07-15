@@ -2,13 +2,13 @@
 <extension version="2.5" type="plugin" group="content" method="upgrade">
     <name>Content - Remote</name>
     <author>Branko Wilhelm</author>
-    <creationDate>Jun 2013</creationDate>
+    <creationDate>Jul 2013</creationDate>
     <copyright>Copyright (C) 2013 Branko Wilhelm</copyright>
     <license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
     <authorEmail>branko.wilhelm@gmail.com</authorEmail>
     <authorUrl>www.z-index.net</authorUrl>
     <version>@REVISION@</version>
-    <description>include remote content into a article</description>
+    <description>include remote content into a article/module or else where content plugins used</description>
     <files>
         <filename plugin="remote">remote.php</filename>
         <filename>index.html</filename>
@@ -19,5 +19,8 @@
 				<field name="cache_time" type="text" filter="integer" default="60" size="5" required="true" label="Caching Time" description="in Minutes" />
 			</fieldset>
 		</fields>
-	</config>		
+	</config>
+	<updateservers>
+		<server type="extension" priority="1" name="Remote">http://www.z-index.net/en/joomla-plugins/remote/updatestream.xml</server>
+	</updateservers>	
 </extension>
