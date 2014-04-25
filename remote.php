@@ -36,7 +36,7 @@ class plgContentRemote extends JPlugin
 
         $cache = JFactory::getCache('remote', 'output');
         $cache->setCaching(1);
-        $cache->setLifeTime($this->params->get('cache_time', 60));
+        $cache->setLifeTime($this->params->get('cache_time', 60) * 60);
 
         $key = md5($url);
 
