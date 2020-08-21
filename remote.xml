@@ -14,7 +14,7 @@
     </files>
     <scriptfile>script.installer.php</scriptfile>
     <updateservers>
-        <server type="collection" priority="1" name="z-index development">http://www.z-index.net/en/extensions.xml</server>
+        <server type="extension" priority="1" name="Content - Remote">https://raw.githubusercontent.com/z-index-net/joomla-plugin-content-remote/master/updatestream.xml</server>
     </updateservers>
     <config>
         <fields name="params">
